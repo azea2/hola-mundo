@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Marcianito"
+        android:layout_width="412dp"
+        android:layout_height="1018dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/Marcianito"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <TextView
+        android:id="@+id/Encabeezado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_text_encabezado"
+        android:textColor="#FBF8F8"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <Button
+        android:id="@+id/Boton"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_text_boton"
+        android:textColor="#FBF9F9"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="174dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
